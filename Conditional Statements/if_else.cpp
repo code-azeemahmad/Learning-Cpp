@@ -16,6 +16,8 @@ int main()
 
 }
 
+// == is the comparison operator
+
 int Calculate(int a, int b, string op) 
 {
     if (op == "+") 
@@ -35,3 +37,4 @@ int Calculate(int a, int b, string op)
         return a / b;
     }
 }
+
