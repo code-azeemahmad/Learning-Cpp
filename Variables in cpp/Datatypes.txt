@@ -1,0 +1,13 @@
+Primitive DataTypes:
+
+--> int         4 bytes
+--> char        1 bytes
+--> float       4 bytes
+--> bool        1 bytes
+--> double      8 bytes
+
+
+Non Primitive DataTypes:
+
+--> string
+--> array
