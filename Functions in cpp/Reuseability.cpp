@@ -18,3 +18,22 @@ int add(int a, int b)       // parameters
     c = a + b;
     return c;
 }
+
+/*
+
+            |               |
+            |               |
+            |_______________|
+            |               |
+            |     add()     |
+            |               |
+            |     int c     |
+            |_______________|  __   
+            |               |    |   
+            |     main()    |    |   
+            |               |    |--> STACK frame   
+            |  int a, b, c  |    |   
+            |_______________|  __|   
+                  STACK
+
+*/
